@@ -6,7 +6,7 @@ public class zad2 {
     public zad2(int tab[], int i)
     {
         this.tab = tab;
-        this.i= i;
+        this.i = i;
     }
     public   boolean sekwencja(int[] tab, int i)
     {
