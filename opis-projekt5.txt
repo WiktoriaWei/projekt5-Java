@@ -1,0 +1,26 @@
+opis-projekt 5
+Każde zadanie zaczynam od zadeklarowania zmiennych, stworzeniu konstruktora oraz odpowiedniej metody.
+zad1
+Metoda boolean, która powinna zwrócić prawdę gdy jedna z temperatur(a lub b) jest mniejsza od 100.
+Używajać assertTrue i assertFalse:
+T1 sprawdza czy funkcja zwróci prawdę, kiedy obie temperatury są poniżej 100.
+T2 sprawdza czy funkcja zwróci prawdę, kiedy jedna z temperatur jest poniżej 100.
+T3 sprawdza czy funkcja zwróci fałsz, kiedy obie temperatury są równe lub powyżej 100.
+zad2
+Metoda boolean, która powinna zwrócić prawdę, gdy w zadeklarowanej tablicy od wskazanego przez nas indeksu występuje sekwencja "1,2,3".
+Używajać assertTrue i assertFalse:
+T1 sprawdza czy funkcja zwróci prawdę, kiedy od indeksu "2" występuje sekwencja "1,2,3".
+T2 sprawdza czy funkcja zwróci fałsz, kiedy od indeksu "1" nie występuje sekwencja, mimo tego, że pojawia się ona w tablicy.
+T3 sprawdza czy funkcja zwróci fałsz, kiedy w tablicy nie występuje sekwencja.
+zad3
+Metoda int, która powinna wyrzucić połowę znaków ze stringa.
+Używając assertEquals i assertNotEquals:
+T1 sprawdza czy funkcja zwraca połowę znaków dla stringa, którego rozmiar jest liczbą parzystą.
+T2 sprawdza czy funkcja zwraca połowę znaków dla stringa, którego rozmiar jest liczbą nieparzystą.(ponieważ przechowuje tylko liczby całkowite, w przypadku dzielenia cześć dziesiętna jest "ucinana")
+T3 sprawdza czy funkcja nie zwraca błędnej wartości.
+zad4
+Metoda static int[](aby móc zwrócić tablicę ze wszystkimi elementami), która powinna zwrócic tablicę z elementami owdróconymi niż zadana.
+Używając assertArrayEquals(umożliwia sprawdzenie całej zawartości tablicy):
+T1 sprawdza czy funkcja zwraca tablicę z elementami owdróconymi niż zadana.
+T2 sprawdza czy funkcja program działa dla tablicy jednoelementowej.
+T3 sprawdza czy funkcja zwraca identyczną tablicę jak zadana (test powinnien wyjść błędny)
