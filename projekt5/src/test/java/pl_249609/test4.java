@@ -15,6 +15,6 @@ public class test4 {
    }
    @Test
    void t3() {
-      assertArrayEquals(new int[]{1,4}, test4.nowatablica(new int[]{1,4}));
+      assertArrayEquals(new int[]{1,4}, test4.nowatablica(new int[]{1,4})); //ten test powinien wyjść błędnie
    }
 }
